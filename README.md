@@ -11,12 +11,12 @@
 
 ## Featured work
 
-### 🗺️ [arxiv-atlas](https://github.com/IamTusharYadav/arxiv-atlas) — **[live →](https://atlas.tusharyadav.dev)**
+### 🗺️ [arxiv-atlas](https://github.com/IamTusharYadav/arxiv-atlas) — **[live](https://atlas.tusharyadav.dev)**
 *A living map of AI research, drawn nightly by agents.*
 Autonomous multi-agent system on **AWS Bedrock**: nightly ingestion embeds new arXiv papers into a semantic graph (Qdrant); a framework-free agent loop turns them into cited research briefs and interactive topic landscapes.
 Serverless (Lambda · API Gateway · DynamoDB) · fail-closed budget guard · golden-set **LLM-judge evals gating CI** · immutable deploys with auto-rollback.
 
-### 🔗 [cross-repo-rag](https://github.com/IamTusharYadav/cross-repo-rag) — **[live →](https://crossrepo.tusharyadav.dev)**
+### 🔗 [cross-repo-rag](https://github.com/IamTusharYadav/cross-repo-rag) — **[live](https://crossrepo.tusharyadav.dev)**
 Deployed RAG over **two codebases at once** (FastAPI + Qdrant client): hybrid dense+BM25 retrieval, embeddings chosen by A/B test (+19% MRR), 27 tests, CI, Docker on Hetzner.
 *Built a reranker, benchmarked it, removed it — the numbers said no.*
 
